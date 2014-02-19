@@ -1,0 +1,4 @@
+package-as: Vortex_SavedInstances
+
+required-dependencies:
+    - vortex
