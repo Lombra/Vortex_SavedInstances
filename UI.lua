@@ -1,7 +1,8 @@
 local _, addon = ...
 
 local SavedInstances = Vortex:NewModule("Saved instances", {
-	noSearch = true,
+	items = false,
+	search = false,
 	noSort = true,
 })
 
