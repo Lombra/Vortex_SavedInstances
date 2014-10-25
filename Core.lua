@@ -16,6 +16,7 @@ function addon:OnInitialize()
 	self.Characters = self.db.global.Characters
 	self:RegisterEvent("UPDATE_INSTANCE_INFO")
 	self:RegisterEvent("CHAT_MSG_SYSTEM")
+	self:RegisterEvent("PLAYER_ENTERING_WORLD", RequestRaidInfo)
 end
 
 function addon:UPDATE_INSTANCE_INFO()
