@@ -1,7 +1,8 @@
-## Interface: 60000
+## Interface: 80000
 ## Title: Vortex: SavedInstances
 ## Version: @project-version@
 ## Author: Lombra
+
 ## SavedVariables: Vortex_SavedInstancesDB
 ## RequiredDeps: Vortex
 
